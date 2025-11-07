@@ -61,7 +61,7 @@ app.get("/janken", (req, res) => {
     win: win,
     total: total
   }
-  res.render( 'janken', display );
+  res.render( 'janken2', display );
 });
 
 app.get("/get_test", (req, res) => {
