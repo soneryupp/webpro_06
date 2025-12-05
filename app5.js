@@ -128,6 +128,10 @@ app.get("/keiyo2/:number", (req, res) =>{
   res.render('keiyo2_detail',{id: number,data: detail});
 })
 
+app.get("/keiyo2/delete", (req, res) =>{
+  
+})
+
 // Delete
 app.get("/keiyo2/delete/:number", (req, res) => {
   // 本来は削除の確認ページを表示する
